@@ -31,7 +31,7 @@ function crearTarea(el){
 	$("ul").append(
 		"<li><span class='erase'><i class='fa fa-times'></i></span>" + 
 		"<span class='texto'>" + el.val().trim() + "</span>" + 
-		"<span class='editor'><i class='fa fa-pencil'></i></span></li>"
+		"<span class='editor'><i class='fa fa-edit'></i></span></li>"
 	);
 	el.val("");
 	$("#total").text(+($("#total").text()) + 1);
